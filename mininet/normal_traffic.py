@@ -150,7 +150,11 @@ def startNetwork():
             print("%s Downloading test.zip from h1" % src)
             src.cmd("wget http://10.0.0.1/test.zip")
         
+<<<<<<< HEAD
         # h1.cmd("rm -f *.* /home/mininet/Downloads")
+=======
+        h1.cmd("rm -f *.* /home/mininet/Downloads")
+>>>>>>> fcf901980eb9536b76dc6b92ea657e614fd1c629
         
     print("--------------------------------------------------------------------------------")  
     
